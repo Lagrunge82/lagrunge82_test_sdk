@@ -1,4 +1,7 @@
-`ApiClient` Class Description
+# `ApiClient` Class Description
+
+## Installation:
+```pip install lagrunge82-test-sdk```
 
 ## Features:
 
