@@ -1,5 +1,5 @@
 import unittest
-from openweather_sdk.api_client import ApiClient
+from lagrunge82_test_sdk.api_client import ApiClient
 
 
 class TestApiClient(unittest.TestCase):

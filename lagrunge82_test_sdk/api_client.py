@@ -6,8 +6,8 @@ import threading
 from typing import Literal, Dict
 from urllib.parse import urlencode, urlunparse
 
-from openweather_sdk.components.models import CityGeo, CityData, CityWeather
-from openweather_sdk.exceptions import (ConnectionException, APIException)
+from lagrunge82_test_sdk.components.models import CityGeo, CityData, CityWeather
+from lagrunge82_test_sdk.exceptions import (ConnectionException, APIException)
 
 
 class ApiClient:

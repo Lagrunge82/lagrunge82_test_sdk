@@ -21,7 +21,7 @@
 ## Usage:
 
 ```Python
-from openweather_sdk.api_client import ApiClient
+from lagrunge82_test_sdk.api_client import ApiClient
 
 # Create an API client instance with your API key
 api_client = ApiClient("YOUR_API_KEY", mode='on-demand')
