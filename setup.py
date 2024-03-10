@@ -1,9 +1,19 @@
 from setuptools import setup, find_packages
 
+
+def readme():
+    with open('README.md') as f:
+        README = f.read()
+    return README
+
+
 setup(
     name='lagrunge82_test_sdk',
     version='0.1',
     description='Python SDK for accessing OpenWeatherMap API',
+    long_description=readme(),
+    long_description_content_type="text/markdown",
+    url="https://github.com/Lagrunge82/lagrunge82_test_sdk",
     author="Lagrunge",
     author_email="lagrunge82@gmail.com",
     packages=find_packages(),
