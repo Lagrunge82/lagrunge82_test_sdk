@@ -9,7 +9,7 @@ def readme():
 
 setup(
     name='lagrunge82_test_sdk',
-    version='0.1',
+    version='0.2',
     description='Python SDK for accessing OpenWeatherMap API',
     long_description=readme(),
     long_description_content_type="text/markdown",
